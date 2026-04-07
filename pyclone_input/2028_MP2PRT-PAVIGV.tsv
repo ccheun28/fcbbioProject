@@ -1,0 +1,6 @@
+mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
+chr10:16484474:C>A	283	72	1	1	2
+chr10:99704559:->AGGGA	251	62	1	1	2
+chr12:102419583:C>T	240	16	1	1	2
+chr14:106592676:->CTCCCTAA	83	18	0	0	2
+chr22:22031470:TCA>-	57	21	1	1	2
