@@ -1,7 +1,7 @@
-mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
-chr11:44058362:G>A	512	42	4	0	2
-chr12:12940779:A>G	205	57	4	0	2
-chr12:25245350:C>T	410	67	4	0	2
-chr2:147939226:G>T	205	44	4	0	2
-chr2:172556301:C>G	670	89	4	0	2
-chrX:115629241:G>A	236	32	4	0	1
+sample_id	mutation_id	ref_counts	alt_counts	major_cn	minor_cn	normal_cn
+MP2PRT-PATUHM	chr11:44058362:G>A	512	42	4	0	2
+MP2PRT-PATUHM	chr12:12940779:A>G	205	57	4	0	2
+MP2PRT-PATUHM	chr12:25245350:C>T	410	67	4	0	2
+MP2PRT-PATUHM	chr2:147939226:G>T	205	44	4	0	2
+MP2PRT-PATUHM	chr2:172556301:C>G	670	89	4	0	2
+MP2PRT-PATUHM	chrX:115629241:G>A	236	32	4	0	1

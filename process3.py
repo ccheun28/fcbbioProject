@@ -98,9 +98,7 @@ maf_key = maf_key.sort_values(by='Case ID')
 cnv_key = cnv_key.sort_values(by='Case ID')
 
 raw_data_path = '/Users/charlottecheung/Developer/FCBBioInfo/FCBBiodata/'
-output_folder = '/Users/charlottecheung/Developer/FCBBioInfo/fcbbioProject/pyclone_input2/' #CHANGED
-
-all_pyclone_data = []
+output_folder = '/Users/charlottecheung/Developer/FCBBioInfo/fcbbioProject/pyclone_input/' #CHANGED
 
 for maf, cnv in zip(maf_key.itertuples(index=True, name='Pandas'), cnv_key.itertuples(index=True, name='Pandas')): # uses File ID and File Name to find MAF and CNV file
     folder_maf = maf[1] # File ID
@@ -203,15 +201,9 @@ for maf, cnv in zip(maf_key.itertuples(index=True, name='Pandas'), cnv_key.itert
             pyclone_df.rename(columns={
                 "t_ref_count": "ref_counts",
                 "t_alt_count": "alt_counts"
-                }, inplace=True)
-            
-            all_pyclone_data.append(pyclone_df)
-            #pyclone_df.to_csv(output_folder + out_nm, sep="\t", index=False)
-            
-combined_pyclone_df = pd.concat(all_pyclone_data, ignore_index=True)
-
-# Save to one file
-combined_pyclone_df.to_csv(output_folder + "all_samples_pyclone_input.tsv", sep="\t", index=False)
+                }, inplace=True)     
+   
+            pyclone_df.to_csv(output_folder + out_nm, sep="\t", index=False)
 
 # make dictionary with case ID and relapse or non-relapse status
 followup = pd.read_csv('follow_up.tsv', sep='\t')

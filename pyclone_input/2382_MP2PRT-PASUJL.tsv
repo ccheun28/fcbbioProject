@@ -1,2 +1,2 @@
-mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
-chr16:57766920:C>A	602	22	1	1	2
+sample_id	mutation_id	ref_counts	alt_counts	major_cn	minor_cn	normal_cn
+MP2PRT-PASUJL	chr16:57766920:C>A	602	22	1	1	2

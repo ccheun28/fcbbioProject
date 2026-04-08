@@ -1,2 +1,2 @@
-mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
-chrX:73845470:T>G	212	15	1	0	1
+sample_id	mutation_id	ref_counts	alt_counts	major_cn	minor_cn	normal_cn
+MP2PRT-PAVJMY	chrX:73845470:T>G	212	15	1	0	1

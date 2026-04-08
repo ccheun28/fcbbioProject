@@ -1,5 +1,5 @@
-mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
-chr19:22988435:C>T	62	11	1	1	2
-chr2:182751727:G>A	126	84	1	1	2
-chrX:108733065:C>A	615	210	2	2	2
-chrX:130021075:G>A	760	89	2	2	2
+sample_id	mutation_id	ref_counts	alt_counts	major_cn	minor_cn	normal_cn
+MP2PRT-PATBBD	chr19:22988435:C>T	62	11	1	1	2
+MP2PRT-PATBBD	chr2:182751727:G>A	126	84	1	1	2
+MP2PRT-PATBBD	chrX:108733065:C>A	615	210	2	2	2
+MP2PRT-PATBBD	chrX:130021075:G>A	760	89	2	2	2

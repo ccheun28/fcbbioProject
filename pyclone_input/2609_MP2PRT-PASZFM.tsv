@@ -1,6 +1,6 @@
-mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
-chr1:15929387:->A	202	174	1	1	2
-chr10:122593596:C>G	88	20	1	1	2
-chr11:124440295:G>T	393	43	1	1	2
-chr19:38201983:C>T	185	147	1	1	2
-chr3:21511012:C>T	133	90	1	1	2
+sample_id	mutation_id	ref_counts	alt_counts	major_cn	minor_cn	normal_cn
+MP2PRT-PASZFM	chr1:15929387:->A	202	174	1	1	2
+MP2PRT-PASZFM	chr10:122593596:C>G	88	20	1	1	2
+MP2PRT-PASZFM	chr11:124440295:G>T	393	43	1	1	2
+MP2PRT-PASZFM	chr19:38201983:C>T	185	147	1	1	2
+MP2PRT-PASZFM	chr3:21511012:C>T	133	90	1	1	2

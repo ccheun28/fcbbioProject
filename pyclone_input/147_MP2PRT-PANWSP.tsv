@@ -1,4 +1,4 @@
-mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
-chr10:47368090:T>C	246	185	2	2	2
-chr6:26204715:G>A	70	143	1	1	2
-chr7:117587740:A>T	128	54	2	2	2
+sample_id	mutation_id	ref_counts	alt_counts	major_cn	minor_cn	normal_cn
+MP2PRT-PANWSP	chr10:47368090:T>C	246	185	2	2	2
+MP2PRT-PANWSP	chr6:26204715:G>A	70	143	1	1	2
+MP2PRT-PANWSP	chr7:117587740:A>T	128	54	2	2	2

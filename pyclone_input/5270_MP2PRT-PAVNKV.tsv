@@ -1,5 +1,5 @@
-mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
-chr13:20003062:TT>-	174	28	1	1	2
-chr19:38740180:C>G	450	36	1	1	2
-chr3:40487256:G>A	143	41	1	1	2
-chrX:22245368:A>G	323	98	1	1	2
+sample_id	mutation_id	ref_counts	alt_counts	major_cn	minor_cn	normal_cn
+MP2PRT-PAVNKV	chr13:20003062:TT>-	174	28	1	1	2
+MP2PRT-PAVNKV	chr19:38740180:C>G	450	36	1	1	2
+MP2PRT-PAVNKV	chr3:40487256:G>A	143	41	1	1	2
+MP2PRT-PAVNKV	chrX:22245368:A>G	323	98	1	1	2

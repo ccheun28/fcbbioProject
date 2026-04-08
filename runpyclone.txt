@@ -1,0 +1,3 @@
+pyclone-vi fit \
+  --in-file /Users/charlottecheung/Developer/FCBBioInfo/fcbbioProject/pyclone_input2/all_samples_pyclone_input.tsv \
+  --out-file /Users/charlottecheung/Developer/FCBBioInfo/fcbbioProject/pyclone_output \

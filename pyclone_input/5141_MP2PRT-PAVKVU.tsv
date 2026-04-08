@@ -1,6 +1,6 @@
-mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
-chr12:69370911:G>A	159	17	1	1	2
-chr14:67397783:C>T	464	29	1	1	2
-chr17:41505287:G>T	567	66	1	1	2
-chr4:109729784:A>G	546	62	1	1	2
-chr7:1746722:G>A	944	41	1	1	2
+sample_id	mutation_id	ref_counts	alt_counts	major_cn	minor_cn	normal_cn
+MP2PRT-PAVKVU	chr12:69370911:G>A	159	17	1	1	2
+MP2PRT-PAVKVU	chr14:67397783:C>T	464	29	1	1	2
+MP2PRT-PAVKVU	chr17:41505287:G>T	567	66	1	1	2
+MP2PRT-PAVKVU	chr4:109729784:A>G	546	62	1	1	2
+MP2PRT-PAVKVU	chr7:1746722:G>A	944	41	1	1	2

@@ -1,5 +1,5 @@
-mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
-chr12:102396908:G>A	127	131	1	1	2
-chr20:49513168:C>T	244	235	1	1	2
-chr3:47113874:->GTAAC	161	100	1	1	2
-chr6:13632377:->T	112	80	1	1	2
+sample_id	mutation_id	ref_counts	alt_counts	major_cn	minor_cn	normal_cn
+MP2PRT-PAPBSS	chr12:102396908:G>A	127	131	1	1	2
+MP2PRT-PAPBSS	chr20:49513168:C>T	244	235	1	1	2
+MP2PRT-PAPBSS	chr3:47113874:->GTAAC	161	100	1	1	2
+MP2PRT-PAPBSS	chr6:13632377:->T	112	80	1	1	2

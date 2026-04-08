@@ -1,3 +1,3 @@
-mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
-chr16:87644291:G>A	926	40	1	1	2
-chr9:72940235:T>C	378	19	1	1	2
+sample_id	mutation_id	ref_counts	alt_counts	major_cn	minor_cn	normal_cn
+MP2PRT-PAUVBP	chr16:87644291:G>A	926	40	1	1	2
+MP2PRT-PAUVBP	chr9:72940235:T>C	378	19	1	1	2

@@ -1,5 +1,5 @@
-mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
-chr14:64767709:G>A	338	129	1	1	2
-chr19:41094287:G>T	296	103	1	1	2
-chr6:152391504:G>C	252	120	1	1	2
-chr7:152019691:G>A	200	90	1	1	2
+sample_id	mutation_id	ref_counts	alt_counts	major_cn	minor_cn	normal_cn
+MP2PRT-PAWAKY	chr14:64767709:G>A	338	129	1	1	2
+MP2PRT-PAWAKY	chr19:41094287:G>T	296	103	1	1	2
+MP2PRT-PAWAKY	chr6:152391504:G>C	252	120	1	1	2
+MP2PRT-PAWAKY	chr7:152019691:G>A	200	90	1	1	2

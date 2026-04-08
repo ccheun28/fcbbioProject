@@ -1,5 +1,5 @@
-mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
-chr11:113399715:C>T	608	36	1	1	2
-chr15:63983715:G>C	446	36	1	1	2
-chr3:64099880:C>T	297	76	1	1	2
-chr7:55160161:G>A	273	32	1	1	2
+sample_id	mutation_id	ref_counts	alt_counts	major_cn	minor_cn	normal_cn
+MP2PRT-PASKSI	chr11:113399715:C>T	608	36	1	1	2
+MP2PRT-PASKSI	chr15:63983715:G>C	446	36	1	1	2
+MP2PRT-PASKSI	chr3:64099880:C>T	297	76	1	1	2
+MP2PRT-PASKSI	chr7:55160161:G>A	273	32	1	1	2

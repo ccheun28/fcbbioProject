@@ -1,6 +1,6 @@
-mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
-chr1:156671654:G>C	278	159	1	1	2
-chr16:3283930:G>A	376	257	1	1	2
-chr17:11990527:G>A	155	116	1	1	2
-chr2:197756471:C>T	131	102	1	1	2
-chr5:168431347:A>G	484	33	1	1	2
+sample_id	mutation_id	ref_counts	alt_counts	major_cn	minor_cn	normal_cn
+MP2PRT-PAVAMH	chr1:156671654:G>C	278	159	1	1	2
+MP2PRT-PAVAMH	chr16:3283930:G>A	376	257	1	1	2
+MP2PRT-PAVAMH	chr17:11990527:G>A	155	116	1	1	2
+MP2PRT-PAVAMH	chr2:197756471:C>T	131	102	1	1	2
+MP2PRT-PAVAMH	chr5:168431347:A>G	484	33	1	1	2

@@ -1,5 +1,5 @@
-mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
-chr12:81384138:C>G	498	32	1	1	2
-chr16:57751295:G>A	351	14	1	1	2
-chr2:56192800:C>T	760	71	1	1	2
-chr20:36500585:C>T	361	21	1	1	2
+sample_id	mutation_id	ref_counts	alt_counts	major_cn	minor_cn	normal_cn
+MP2PRT-PATJUZ	chr12:81384138:C>G	498	32	1	1	2
+MP2PRT-PATJUZ	chr16:57751295:G>A	351	14	1	1	2
+MP2PRT-PATJUZ	chr2:56192800:C>T	760	71	1	1	2
+MP2PRT-PATJUZ	chr20:36500585:C>T	361	21	1	1	2

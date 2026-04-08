@@ -1,5 +1,5 @@
-mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
-chr1:150151005:AAAAA>CCCCC	343	38	1	1	2
-chr5:131974824:A>-	172	37	1	1	2
-chr6:73041989:T>A	306	41	1	1	2
-chr9:76636530:G>A	145	36	1	1	2
+sample_id	mutation_id	ref_counts	alt_counts	major_cn	minor_cn	normal_cn
+MP2PRT-PAVVIS	chr1:150151005:AAAAA>CCCCC	343	38	1	1	2
+MP2PRT-PAVVIS	chr5:131974824:A>-	172	37	1	1	2
+MP2PRT-PAVVIS	chr6:73041989:T>A	306	41	1	1	2
+MP2PRT-PAVVIS	chr9:76636530:G>A	145	36	1	1	2

@@ -1,5 +1,5 @@
-mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
-chr15:38351517:C>T	391	45	1	1	2
-chr17:10516283:G>A	266	76	1	1	2
-chr2:113406872:->AAC	161	29	1	1	2
-chr7:111124468:G>A	356	47	1	1	2
+sample_id	mutation_id	ref_counts	alt_counts	major_cn	minor_cn	normal_cn
+MP2PRT-PASTYP	chr15:38351517:C>T	391	45	1	1	2
+MP2PRT-PASTYP	chr17:10516283:G>A	266	76	1	1	2
+MP2PRT-PASTYP	chr2:113406872:->AAC	161	29	1	1	2
+MP2PRT-PASTYP	chr7:111124468:G>A	356	47	1	1	2

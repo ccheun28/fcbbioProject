@@ -1,5 +1,5 @@
-mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
-chr11:64766024:->G	552	60	1	1	2
-chr13:37598666:C>T	295	32	1	1	2
-chr19:3977544:C>T	676	74	1	1	2
-chr2:10058946:G>A	418	21	1	1	2
+sample_id	mutation_id	ref_counts	alt_counts	major_cn	minor_cn	normal_cn
+MP2PRT-PAUXJG	chr11:64766024:->G	552	60	1	1	2
+MP2PRT-PAUXJG	chr13:37598666:C>T	295	32	1	1	2
+MP2PRT-PAUXJG	chr19:3977544:C>T	676	74	1	1	2
+MP2PRT-PAUXJG	chr2:10058946:G>A	418	21	1	1	2

@@ -1,3 +1,3 @@
-mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
-chr5:13788716:C>A	260	12	1	1	2
-chr5:176365729:G>A	474	15	1	1	2
+sample_id	mutation_id	ref_counts	alt_counts	major_cn	minor_cn	normal_cn
+MP2PRT-PAVEHH	chr5:13788716:C>A	260	12	1	1	2
+MP2PRT-PAVEHH	chr5:176365729:G>A	474	15	1	1	2
