@@ -1,8 +1,0 @@
-mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
-chr1:237500723:G>A	167	40	1	1	2
-chr12:39342062:G>A	124	24	1	1	2
-chr4:95245050:C>T	243	86	1	1	2
-chr7:33383722:C>T	226	23	1	1	2
-chr9:5078362:A>C	116	71	1	1	2
-chr9:5089726:C>A	222	9	1	1	2
-chrX:135171105:C>A	334	104	1	1	2

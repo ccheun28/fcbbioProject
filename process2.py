@@ -67,7 +67,7 @@ def map_cn(maf_df, cnv_df):
 program = 'pyclone' # 'myclone' or 'pyclone'
 
 # load sample sheet and create new dataframes for maf and cnv files
-ss = pd.read_csv('gdc_sample_sheet.2026-04-01.tsv', sep='\t')
+ss = pd.read_csv('gdc_sample_sheet.2026-04-01.tsv', sep='\t') #CHANGED
 maf_key = ss[ss['File Name'].str.contains(r'\.maf.gz$', regex=True)].copy()
 cnv_key = ss[ss['File Name'].str.contains(r'\.copy_number_variation.seg.txt$', regex=True)].copy()
 # sort by case ID to ensure maf and cnv files are in same order
@@ -75,9 +75,31 @@ maf_key = maf_key.sort_values(by='Case ID')
 cnv_key = cnv_key.sort_values(by='Case ID')
 
 #print(cnv_key.head(10))
+maf_cases = set(maf_key["Case ID"])
+cnv_cases = set(cnv_key["Case ID"])
+
+
+#check for samples without MAF and txt
+common_cases = maf_cases & cnv_cases
+missing_maf = cnv_cases - maf_cases
+missing_cnv = maf_cases - cnv_cases
+
+"""
+print("Cases missing MAF files:")
+print(missing_maf)
+
+print("\nCases missing CNV files:")
+print(missing_cnv)
+"""
+
+#only keep samples with both MAF and cnv files
+maf_key = maf_key[maf_key["Case ID"].isin(common_cases)].copy()
+cnv_key = cnv_key[cnv_key["Case ID"].isin(common_cases)].copy()
+maf_key = maf_key.sort_values(by='Case ID')
+cnv_key = cnv_key.sort_values(by='Case ID')
 
 raw_data_path = '/Users/charlottecheung/Developer/FCBBioInfo/FCBBiodata/'
-output_folder = '/Users/charlottecheung/Developer/FCBBioInfo/fcbbioProject/pyclone_input/'
+output_folder = '/Users/charlottecheung/Developer/FCBBioInfo/fcbbioProject/pyclone_input/' #CHANGED
 
 for maf, cnv in zip(maf_key.itertuples(index=True, name='Pandas'), cnv_key.itertuples(index=True, name='Pandas')): # uses File ID and File Name to find MAF and CNV file
     folder_maf = maf[1] # File ID
@@ -99,6 +121,7 @@ for maf, cnv in zip(maf_key.itertuples(index=True, name='Pandas'), cnv_key.itert
     # Load MAF file
     try:
         maf_df = pd.read_csv(raw_data_path+folder_maf+'/'+file_name_maf, sep='\t', compression='gzip', comment='#')
+        maf_df["Chromosome"] = maf_df["Chromosome"].astype(str).str.strip()
     except Exception as e:
         print(f"Error reading MAF file {maf_path}: {e}, skipping sample")
         continue
@@ -128,6 +151,7 @@ for maf, cnv in zip(maf_key.itertuples(index=True, name='Pandas'), cnv_key.itert
     # Load CNV file
     try:
         cnv_df = pd.read_csv(raw_data_path+folder_cnv+'/'+file_name_cnv, sep='\t') # need Copy_Number column
+        cnv_df["Chromosome"] = cnv_df["Chromosome"].astype(str).str.strip()
     except Exception as e:
         #print(f"Error reading CNV file {cnv_path}: {e}, skipping sample")
         continue
@@ -163,6 +187,7 @@ for maf, cnv in zip(maf_key.itertuples(index=True, name='Pandas'), cnv_key.itert
                 "mutation_id",
                 "t_ref_count",
                 "t_alt_count",
+                "total_cn",
                 "major_cn",
                 "minor_cn",
                 "normal_cn"
@@ -175,6 +200,5 @@ for maf, cnv in zip(maf_key.itertuples(index=True, name='Pandas'), cnv_key.itert
             
             pyclone_df.to_csv(output_folder + out_nm, sep="\t", index=False)
             
-
 
 # make dictionary with case ID and relapse or non-relapse status
