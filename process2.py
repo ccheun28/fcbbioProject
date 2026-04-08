@@ -187,7 +187,6 @@ for maf, cnv in zip(maf_key.itertuples(index=True, name='Pandas'), cnv_key.itert
                 "mutation_id",
                 "t_ref_count",
                 "t_alt_count",
-                "total_cn",
                 "major_cn",
                 "minor_cn",
                 "normal_cn"
@@ -202,3 +201,21 @@ for maf, cnv in zip(maf_key.itertuples(index=True, name='Pandas'), cnv_key.itert
             
 
 # make dictionary with case ID and relapse or non-relapse status
+followup = pd.read_csv('follow_up.tsv', sep='\t')
+print(followup.iloc[:5, 66])
+relapse_dict = {}
+
+for maf in maf_key.itertuples(index=False):
+    caseID = maf[5].split(',')[0].strip()
+    
+    followup["cases.submitter_id"] = followup["cases.submitter_id"].str.strip()
+
+    match_rows = followup[followup["cases.submitter_id"] == caseID]
+
+    relapse_status = match_rows["follow_ups.progression_or_recurrence"].values[0]
+    print(caseID, relapse_status)
+
+    relapse_dict[caseID] = relapse_status # yes = relapse, no = non-relapse
+    
+#print(relapse_dict)
+

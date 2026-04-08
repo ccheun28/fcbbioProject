@@ -1,7 +1,7 @@
-mutation_id	ref_counts	var_counts	total_cn	major_cn	minor_cn	normal_cn
-chr1:22647371:G>A	481	255	2	1	1	2
-chr1:233666688:C>T	410	197	2	1	1	2
-chr12:47789333:->TTC	262	100	2	1	1	2
-chr14:106506993:GTGTAT>A	44	54	1	1	0	2
-chr3:48562928:C>T	422	188	2	1	1	2
-chr6:30069218:G>A	600	214	2	1	1	2
+mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
+chr1:22647371:G>A	481	255	1	1	2
+chr1:233666688:C>T	410	197	1	1	2
+chr12:47789333:->TTC	262	100	1	1	2
+chr14:106506993:GTGTAT>A	44	54	1	0	2
+chr3:48562928:C>T	422	188	1	1	2
+chr6:30069218:G>A	600	214	1	1	2

@@ -1,2 +1,2 @@
-mutation_id	ref_counts	var_counts	total_cn	major_cn	minor_cn	normal_cn
-chr19:8585628:C>T	523	16	2	1	1	2
+mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
+chr19:8585628:C>T	523	16	1	1	2

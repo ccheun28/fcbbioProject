@@ -1,5 +1,5 @@
-mutation_id	ref_counts	var_counts	total_cn	major_cn	minor_cn	normal_cn
-chr12:102396908:G>A	127	131	2	1	1	2
-chr20:49513168:C>T	244	235	2	1	1	2
-chr3:47113874:->GTAAC	161	100	2	1	1	2
-chr6:13632377:->T	112	80	2	1	1	2
+mutation_id	ref_counts	var_counts	major_cn	minor_cn	normal_cn
+chr12:102396908:G>A	127	131	1	1	2
+chr20:49513168:C>T	244	235	1	1	2
+chr3:47113874:->GTAAC	161	100	1	1	2
+chr6:13632377:->T	112	80	1	1	2
