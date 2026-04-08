@@ -1,8 +1,7 @@
 """
 file for processing MAF/txt files
 """
-# HAVEN'T TESTED YET
-# copy of process.py
+# use for pyclone-vi
 
 import pandas as pd
 import numpy as np
@@ -61,7 +60,6 @@ def map_cn(maf_df, cnv_df):
     maf_df["major_cn"] = major_cn_list
     maf_df["minor_cn"] = minor_cn_list
     maf_df["normal_cn"] = normal_cn_list
-    
     return maf_df
 
 # Create files for MyClone/Pyclone input
@@ -75,6 +73,7 @@ cnv_key = ss[ss['File Name'].str.contains(r'\.copy_number_variation.seg.txt$', r
 maf_key = maf_key.sort_values(by='Case ID') 
 cnv_key = cnv_key.sort_values(by='Case ID')
 
+#print(cnv_key.head(10))
 maf_cases = set(maf_key["Case ID"])
 cnv_cases = set(cnv_key["Case ID"])
 
@@ -99,7 +98,9 @@ maf_key = maf_key.sort_values(by='Case ID')
 cnv_key = cnv_key.sort_values(by='Case ID')
 
 raw_data_path = '/Users/charlottecheung/Developer/FCBBioInfo/FCBBiodata/'
-output_folder = '/Users/charlottecheung/Developer/FCBBioInfo/fcbbioProject/pyclone_input/' #CHANGED
+output_folder = '/Users/charlottecheung/Developer/FCBBioInfo/fcbbioProject/pyclone_input2/' #CHANGED
+
+all_pyclone_data = []
 
 for maf, cnv in zip(maf_key.itertuples(index=True, name='Pandas'), cnv_key.itertuples(index=True, name='Pandas')): # uses File ID and File Name to find MAF and CNV file
     folder_maf = maf[1] # File ID
@@ -148,6 +149,8 @@ for maf, cnv in zip(maf_key.itertuples(index=True, name='Pandas'), cnv_key.itert
         maf_df["Reference_Allele"] + ">" +
         maf_df["Tumor_Seq_Allele2"])
     
+    
+
     # Load CNV file
     try:
         cnv_df = pd.read_csv(raw_data_path+folder_cnv+'/'+file_name_cnv, sep='\t') # need Copy_Number column
@@ -166,6 +169,10 @@ for maf, cnv in zip(maf_key.itertuples(index=True, name='Pandas'), cnv_key.itert
     idx = f"{maf[0]:03}"
     out_nm = f"{idx}_{case_id}.tsv"
 
+    maf_df["sample_id"] = case_id.strip()
+
+    maf_df[["total_cn", "major_cn", "minor_cn", "normal_cn"]] = maf_df[["total_cn", "major_cn", "minor_cn", "normal_cn"]].astype(int)
+    
     match program:
         case 'myclone':
             print("MyClone processing not implemented yet")
@@ -184,6 +191,7 @@ for maf, cnv in zip(maf_key.itertuples(index=True, name='Pandas'), cnv_key.itert
             myclone_df.to_csv(output_folder + out_nm, sep="\t", index=False)
         case 'pyclone':
             pyclone_df = maf_df[[
+                "sample_id",
                 "mutation_id",
                 "t_ref_count",
                 "t_alt_count",
@@ -194,15 +202,20 @@ for maf, cnv in zip(maf_key.itertuples(index=True, name='Pandas'), cnv_key.itert
             # Rename columns to match MyClone spec
             pyclone_df.rename(columns={
                 "t_ref_count": "ref_counts",
-                "t_alt_count": "var_counts"
+                "t_alt_count": "alt_counts"
                 }, inplace=True)
             
-            pyclone_df.to_csv(output_folder + out_nm, sep="\t", index=False)
+            all_pyclone_data.append(pyclone_df)
+            #pyclone_df.to_csv(output_folder + out_nm, sep="\t", index=False)
             
+combined_pyclone_df = pd.concat(all_pyclone_data, ignore_index=True)
+
+# Save to one file
+combined_pyclone_df.to_csv(output_folder + "all_samples_pyclone_input.tsv", sep="\t", index=False)
 
 # make dictionary with case ID and relapse or non-relapse status
 followup = pd.read_csv('follow_up.tsv', sep='\t')
-print(followup.iloc[:5, 66])
+
 relapse_dict = {}
 
 for maf in maf_key.itertuples(index=False):
@@ -213,7 +226,7 @@ for maf in maf_key.itertuples(index=False):
     match_rows = followup[followup["cases.submitter_id"] == caseID]
 
     relapse_status = match_rows["follow_ups.progression_or_recurrence"].values[0]
-    #print(caseID, relapse_status)
+   #print(caseID, relapse_status)
 
     relapse_dict[caseID] = relapse_status # yes = relapse, no = non-relapse
     
