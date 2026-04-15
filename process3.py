@@ -222,5 +222,6 @@ for maf in maf_key.itertuples(index=False):
 
     relapse_dict[caseID] = relapse_status # yes = relapse, no = non-relapse
     
-#print(relapse_dict)
+df = pd.DataFrame(list(relapse_dict.items()), columns=["caseID", "relapse_status"])
+df.to_csv("relapse_dict.csv", index=False)
 
