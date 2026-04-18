@@ -26,23 +26,6 @@ plt.savefig("figures/myclone_num_clusters_violin_plot.png")
 plt.close()
 
 #figure: number of clusters per sample, relapse vs non relapse
-"""
-meta = df[["sample_id", "relapse_status"]].drop_duplicates()
-
-plot_df = clusters_per_sample.merge(meta, on="sample_id")
-sns.violinplot(
-    data=plot_df,
-    x="relapse_status",
-    y="num_clusters"
-)
-
-plt.title("Number of Clusters Identified per Sample with MyClone by Relapse Status")
-plt.xlabel("Relapse Status")
-plt.ylabel("Number of Clusters")
-plt.savefig("figures/myclone_num_clusters_relapse_violin_plot.png")
-#plt.show()
-"""
-
 meta = df[["sample_id", "relapse_status"]].drop_duplicates()
 plot_df = clusters_per_sample.merge(meta, on="sample_id")
 
