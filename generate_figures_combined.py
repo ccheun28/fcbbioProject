@@ -3,24 +3,14 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import os
 
-# ----------------------------
-# Paths
-# ----------------------------
 myclone_path = "/Users/charlottecheung/Developer/FCBBioInfo/fcbbioProject/myclone-output_combined/myclone_results_combined.tsv"
 pyclone_path = "/Users/charlottecheung/Developer/FCBBioInfo/fcbbioProject/pyclone_output_combined/pyclone_output_combined.tsv"
 
 os.makedirs("figures", exist_ok=True)
 
-# ----------------------------
-# Load data
-# ----------------------------
 myclone = pd.read_csv(myclone_path, sep="\t")
 pyclone = pd.read_csv(pyclone_path, sep="\t")
 
-
-# =========================================================
-# Helper function: cluster counts per sample
-# =========================================================
 def get_clusters(df):
     return (
         df.groupby("sample_id")["cluster_id"]
@@ -32,10 +22,6 @@ def get_clusters(df):
 my_clusters = get_clusters(myclone)
 py_clusters = get_clusters(pyclone)
 
-
-# =========================================================
-# Merge metadata once
-# =========================================================
 my_meta = myclone[["sample_id", "relapse_status", "MRD_EOI_Pct", "shannon_index"]].drop_duplicates()
 py_meta = pyclone[["sample_id", "relapse_status", "MRD_EOI_Pct", "shannon_index"]].drop_duplicates()
 
@@ -44,9 +30,7 @@ my_clusters = my_clusters.merge(my_meta, on="sample_id")
 py_clusters = py_clusters.merge(py_meta, on="sample_id")
 
 
-# =========================================================
-# 1. Number of clusters per sample (distribution)
-# =========================================================
+#figure: number of clusters per sample
 plt.figure(figsize=(10,4))
 
 plt.subplot(1,2,1)
@@ -58,16 +42,14 @@ plt.subplot(1,2,2)
 sns.violinplot(y=py_clusters["num_clusters"])
 plt.title("PyClone")
 
-plt.suptitle("Number of Clusters per Sample")
+plt.suptitle("Number of Clusters Identified per Sample")
 plt.tight_layout()
 
 plt.savefig("figures/compare_num_clusters_violin.png")
 plt.close()
 
 
-# =========================================================
-# 2. Clusters vs relapse
-# =========================================================
+#figure: number of clusters per sample, relapse vs non relapse
 plt.figure(figsize=(10,4))
 
 plt.subplot(1,2,1)
@@ -82,16 +64,13 @@ plt.title("PyClone")
 plt.xlabel("")
 plt.ylabel("")
 
-plt.suptitle("Clusters vs Relapse Status")
+plt.suptitle("Number of Clusters Identified by Relapse Status")
 plt.tight_layout()
 
 plt.savefig("figures/compare_clusters_vs_relapse.png")
 plt.close()
 
-
-# =========================================================
-# 3. MRD vs clusters
-# =========================================================
+#figure: number of clusters per sample vs MRD
 plt.figure(figsize=(10,4))
 
 plt.subplot(1,2,1)
@@ -106,16 +85,13 @@ plt.title("PyClone")
 plt.xlabel("Clusters")
 plt.ylabel("")
 
-plt.suptitle("MRD vs Clonal Complexity")
+plt.suptitle("MRD vs Number of Clones Identified")
 plt.tight_layout()
 
 plt.savefig("figures/compare_mrd_vs_clusters.png")
 plt.close()
 
-
-# =========================================================
-# 4. Shannon index distribution
-# =========================================================
+#figure: Shannon index per sample
 plt.figure(figsize=(10,4))
 
 plt.subplot(1,2,1)
@@ -126,16 +102,13 @@ plt.subplot(1,2,2)
 sns.violinplot(y=py_clusters["shannon_index"])
 plt.title("PyClone")
 
-plt.suptitle("Shannon Index Distribution")
+plt.suptitle("Clonal Diversity")
 plt.tight_layout()
 
 plt.savefig("figures/compare_shannon_violin.png")
 plt.close()
 
-
-# =========================================================
-# 5. Shannon vs relapse
-# =========================================================
+#figure: Shannon index per sample relapse vs non-relapse
 my_shannon = my_meta[["sample_id", "shannon_index"]]
 py_shannon = py_meta[["sample_id", "shannon_index"]]
 
@@ -152,16 +125,13 @@ plt.subplot(1,2,2)
 sns.violinplot(data=py_shannon, x="relapse_status", y="shannon_index")
 plt.title("PyClone")
 
-plt.suptitle("Shannon Index vs Relapse")
+plt.suptitle("Clonal Diversity by Relapse Status")
 plt.tight_layout()
 
 plt.savefig("figures/compare_shannon_vs_relapse.png")
 plt.close()
 
-
-# =========================================================
-# 6. Shannon vs MRD
-# =========================================================
+#figure: shannon index per sample vs MRD
 plt.figure(figsize=(10,4))
 
 plt.subplot(1,2,1)
@@ -182,10 +152,7 @@ plt.tight_layout()
 plt.savefig("figures/compare_mrd_vs_shannon.png")
 plt.close()
 
-
-# =========================================================
-# 7. Clonal vs subclonal barplot (relapse comparison)
-# =========================================================
+#figure: Subclonal vs clonal by CCF
 def clonal_bar(df, meta, title, ax):
     df = df.copy()
     df["clone_type"] = df["cellular_prevalence"].apply(lambda x: "clonal" if x >= 0.5 else "subclonal")
@@ -208,12 +175,29 @@ def clonal_bar(df, meta, title, ax):
     ax.legend().remove()
 
 
-fig, axes = plt.subplots(1,2, figsize=(10,4))
+fig, axes = plt.subplots(1, 2, figsize=(10, 6), constrained_layout=True)
 
 clonal_bar(myclone, my_meta, "MyClone", axes[0])
 clonal_bar(pyclone, py_meta, "PyClone", axes[1])
 
-plt.suptitle("Clonal vs Subclonal Mutations")
-plt.tight_layout()
-plt.savefig("figures/compare_clonal_subclonal.png")
+handles, labels = axes[0].get_legend_handles_labels()
+
+fig.legend(
+    handles,
+    labels,
+    title="Clone Type",
+    loc="center left",
+    bbox_to_anchor=(1.02, 0.5),
+    ncol=1
+)
+
+
+fig.suptitle("Percentage of Clonal vs Subclonal Mutations", y=1.05)
+
+plt.savefig(
+    "figures/compare_clonal_subclonal.png",
+    bbox_inches="tight",
+    dpi=300
+)
+
 plt.close()
