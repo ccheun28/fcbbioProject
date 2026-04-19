@@ -6,6 +6,11 @@ import matplotlib.colors as mcolors
 import seaborn as sns
 import scipy
 
+from itertools import combinations
+from collections import Counter, defaultdict
+import networkx as nx
+
+
 """
 OVERVIEW OF ALL GENES
 """
@@ -177,135 +182,252 @@ MORE DETAILED ANALYSIS OF MUTATED GENES IN MYCLONE RESULTS
 
 # FIND TOP GENES IN SUBCLONAL MUTATIONS VS CLONAL MUTATIONS
 # create new patient-gene matrix only for cellular prevalence <0.2 (subclonal)
-subclonal_genes_df = myclone_results_combined_genes[myclone_results_combined_genes["cellular_prevalence"] <= 0.2]
-subclonal_patient_gene_matrix = subclonal_genes_df.groupby(['sample_id', 'Hugo_Symbol']).size().unstack(fill_value=0)
-subclonal_patient_gene_matrix = (subclonal_patient_gene_matrix > 0).astype(int) # convert to binary
-print(subclonal_patient_gene_matrix.shape)
-print(subclonal_patient_gene_matrix.head())
-subclonal_gene_freq = subclonal_patient_gene_matrix.sum(axis=0).sort_values(ascending=False)
-print(subclonal_gene_freq.head(20))
+# subclonal_genes_df = myclone_results_combined_genes[myclone_results_combined_genes["cellular_prevalence"] <= 0.2]
+# subclonal_patient_gene_matrix = subclonal_genes_df.groupby(['sample_id', 'Hugo_Symbol']).size().unstack(fill_value=0)
+# subclonal_patient_gene_matrix = (subclonal_patient_gene_matrix > 0).astype(int) # convert to binary
+# print(subclonal_patient_gene_matrix.shape)
+# print(subclonal_patient_gene_matrix.head())
+# subclonal_gene_freq = subclonal_patient_gene_matrix.sum(axis=0).sort_values(ascending=False)
+# print(subclonal_gene_freq.head(20))
 
-# create new patient-gene matrix only for cellular prevalence >0.2 and <0.7 (high subclonal)
-high_subclonal_genes_df = myclone_results_combined_genes[(myclone_results_combined_genes["cellular_prevalence"] > 0.2) & (myclone_results_combined_genes["cellular_prevalence"] <= 0.7)]
-high_subclonal_patient_gene_matrix = high_subclonal_genes_df.groupby(['sample_id', 'Hugo_Symbol']).size().unstack(fill_value=0)
-high_subclonal_patient_gene_matrix = (high_subclonal_patient_gene_matrix > 0).astype(int)
-print(high_subclonal_patient_gene_matrix.shape)
-print(high_subclonal_patient_gene_matrix.head())
-high_subclonal_gene_freq = high_subclonal_patient_gene_matrix.sum(axis=0).sort_values(ascending=False)
-print(high_subclonal_gene_freq.head(20))
+# # create new patient-gene matrix only for cellular prevalence >0.2 and <0.7 (high subclonal)
+# high_subclonal_genes_df = myclone_results_combined_genes[(myclone_results_combined_genes["cellular_prevalence"] > 0.2) & (myclone_results_combined_genes["cellular_prevalence"] <= 0.7)]
+# high_subclonal_patient_gene_matrix = high_subclonal_genes_df.groupby(['sample_id', 'Hugo_Symbol']).size().unstack(fill_value=0)
+# high_subclonal_patient_gene_matrix = (high_subclonal_patient_gene_matrix > 0).astype(int)
+# print(high_subclonal_patient_gene_matrix.shape)
+# print(high_subclonal_patient_gene_matrix.head())
+# high_subclonal_gene_freq = high_subclonal_patient_gene_matrix.sum(axis=0).sort_values(ascending=False)
+# print(high_subclonal_gene_freq.head(20))
 
-# create new patient-gene matrix only for cellular prevalence >0.7 (clonal)
-clonal_genes_df = myclone_results_combined_genes[myclone_results_combined_genes["cellular_prevalence"] > 0.7]
-clonal_patient_gene_matrix = clonal_genes_df.groupby(['sample_id', 'Hugo_Symbol']).size().unstack(fill_value=0)
-clonal_patient_gene_matrix = (clonal_patient_gene_matrix > 0).astype(int)
-print(clonal_patient_gene_matrix.shape)
-print(clonal_patient_gene_matrix.head())
-clonal_gene_freq = clonal_patient_gene_matrix.sum(axis=0).sort_values(ascending=False)
-print(clonal_gene_freq.head(20))
+# # create new patient-gene matrix only for cellular prevalence >0.7 (clonal)
+# clonal_genes_df = myclone_results_combined_genes[myclone_results_combined_genes["cellular_prevalence"] > 0.7]
+# clonal_patient_gene_matrix = clonal_genes_df.groupby(['sample_id', 'Hugo_Symbol']).size().unstack(fill_value=0)
+# clonal_patient_gene_matrix = (clonal_patient_gene_matrix > 0).astype(int)
+# print(clonal_patient_gene_matrix.shape)
+# print(clonal_patient_gene_matrix.head())
+# clonal_gene_freq = clonal_patient_gene_matrix.sum(axis=0).sort_values(ascending=False)
+# print(clonal_gene_freq.head(20))
 
-# CREATE HEATMAP OF TOP 20 GENES IN SUBCLONAL MUTATIONS ACROSS RELAPSE VS NON-RELAPSE PATIENTS
-relapse_df_subclonal = relapse_df[relapse_df["sample_id"].isin(subclonal_patient_gene_matrix.index)]
-full_df_subclonal = relapse_df_subclonal.merge(
-    subclonal_patient_gene_matrix,
-    left_on="sample_id",
-    right_index=True,
-    how="left"
-)
-full_df_subclonal = full_df_subclonal.sort_values(by='relapse_status')
-row_colors = full_df_subclonal["relapse_status"].map({
-    'Yes': "red",
-    'No': "blue"
-})
-full_df_subclonal = full_df_subclonal.drop(columns=['relapse_status', 'sample_id'])
-subclonal_gene_freq = full_df_subclonal.sum(axis=0).sort_values(ascending=False)
-top_subclonal_genes = subclonal_gene_freq.head(20).index
-sorted_matrix_subclonal = full_df_subclonal[top_subclonal_genes]
-g_subclonal = sns.clustermap(
-    sorted_matrix_subclonal,
-    row_cluster=False,
-    col_cluster=False,
-    row_colors=row_colors,
-    cmap="Reds",
-    yticklabels=False
-)
-# Force ALL gene labels to show
-g_subclonal.ax_heatmap.set_xticks(range(len(sorted_matrix_subclonal.columns)))
-g_subclonal.ax_heatmap.set_xticklabels(
-    sorted_matrix_subclonal.columns,
-    rotation=90,
-    fontsize=8
-)
-plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_top_subclonal_genes_heatmap.png')
+# # CREATE HEATMAP OF TOP 20 GENES IN SUBCLONAL MUTATIONS ACROSS RELAPSE VS NON-RELAPSE PATIENTS
+# relapse_df_subclonal = relapse_df[relapse_df["sample_id"].isin(subclonal_patient_gene_matrix.index)]
+# full_df_subclonal = relapse_df_subclonal.merge(
+#     subclonal_patient_gene_matrix,
+#     left_on="sample_id",
+#     right_index=True,
+#     how="left"
+# )
+# full_df_subclonal = full_df_subclonal.sort_values(by='relapse_status')
+# row_colors = full_df_subclonal["relapse_status"].map({
+#     'Yes': "red",
+#     'No': "blue"
+# })
+# full_df_subclonal = full_df_subclonal.drop(columns=['relapse_status', 'sample_id'])
+# subclonal_gene_freq = full_df_subclonal.sum(axis=0).sort_values(ascending=False)
+# top_subclonal_genes = subclonal_gene_freq.head(20).index
+# sorted_matrix_subclonal = full_df_subclonal[top_subclonal_genes]
+# g_subclonal = sns.clustermap(
+#     sorted_matrix_subclonal,
+#     row_cluster=False,
+#     col_cluster=False,
+#     row_colors=row_colors,
+#     cmap="Reds",
+#     yticklabels=False
+# )
+# # Force ALL gene labels to show
+# g_subclonal.ax_heatmap.set_xticks(range(len(sorted_matrix_subclonal.columns)))
+# g_subclonal.ax_heatmap.set_xticklabels(
+#     sorted_matrix_subclonal.columns,
+#     rotation=90,
+#     fontsize=8
+# )
+# plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_top_subclonal_genes_heatmap.png')
 
-# CREATE HEATMAP OF TOP 20 GENES IN HIGH SUBCLONAL MUTATIONS ACROSS RELAPSE VS NON-RELAPSE PATIENTS
-relapse_df_high_subclonal = relapse_df[relapse_df["sample_id"].isin(high_subclonal_patient_gene_matrix.index)]
-full_df_high_subclonal = relapse_df_high_subclonal.merge(
-    high_subclonal_patient_gene_matrix,
-    left_on="sample_id",
-    right_index=True,
-    how="left"
-)
-full_df_high_subclonal = full_df_high_subclonal.sort_values(by='relapse_status')
-row_colors = full_df_high_subclonal["relapse_status"].map({
-    'Yes': "red",
-    'No': "blue"
-})
-full_df_high_subclonal = full_df_high_subclonal.drop(columns=['relapse_status', 'sample_id'])
-high_subclonal_gene_freq = full_df_high_subclonal.sum(axis=0).sort_values(ascending=False)
-top_high_subclonal_genes = high_subclonal_gene_freq.head(20).index
-sorted_matrix_high_subclonal = full_df_high_subclonal[top_high_subclonal_genes]
-g_high_subclonal = sns.clustermap(
-    sorted_matrix_high_subclonal,
-    row_cluster=False,
-    col_cluster=False,
-    row_colors=row_colors,
-    cmap="Reds",
-    yticklabels=False
-)
-# Force ALL gene labels to show
-g_high_subclonal.ax_heatmap.set_xticks(range(len(sorted_matrix_high_subclonal.columns)))
-g_high_subclonal.ax_heatmap.set_xticklabels(
-    sorted_matrix_high_subclonal.columns,
-    rotation=90,
-    fontsize=8
-)
-plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_top_high_subclonal_genes_heatmap.png')
+# # CREATE HEATMAP OF TOP 20 GENES IN HIGH SUBCLONAL MUTATIONS ACROSS RELAPSE VS NON-RELAPSE PATIENTS
+# relapse_df_high_subclonal = relapse_df[relapse_df["sample_id"].isin(high_subclonal_patient_gene_matrix.index)]
+# full_df_high_subclonal = relapse_df_high_subclonal.merge(
+#     high_subclonal_patient_gene_matrix,
+#     left_on="sample_id",
+#     right_index=True,
+#     how="left"
+# )
+# full_df_high_subclonal = full_df_high_subclonal.sort_values(by='relapse_status')
+# row_colors = full_df_high_subclonal["relapse_status"].map({
+#     'Yes': "red",
+#     'No': "blue"
+# })
+# full_df_high_subclonal = full_df_high_subclonal.drop(columns=['relapse_status', 'sample_id'])
+# high_subclonal_gene_freq = full_df_high_subclonal.sum(axis=0).sort_values(ascending=False)
+# top_high_subclonal_genes = high_subclonal_gene_freq.head(20).index
+# sorted_matrix_high_subclonal = full_df_high_subclonal[top_high_subclonal_genes]
+# g_high_subclonal = sns.clustermap(
+#     sorted_matrix_high_subclonal,
+#     row_cluster=False,
+#     col_cluster=False,
+#     row_colors=row_colors,
+#     cmap="Reds",
+#     yticklabels=False
+# )
+# # Force ALL gene labels to show
+# g_high_subclonal.ax_heatmap.set_xticks(range(len(sorted_matrix_high_subclonal.columns)))
+# g_high_subclonal.ax_heatmap.set_xticklabels(
+#     sorted_matrix_high_subclonal.columns,
+#     rotation=90,
+#     fontsize=8
+# )
+# plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_top_high_subclonal_genes_heatmap.png')
 
-# CREATE HEATMAP OF TOP 20 GENES IN CLONAL MUTATIONS ACROSS RELAPSE VS NON-RELAPSE PATIENTS
-relapse_df_clonal = relapse_df[relapse_df["sample_id"].isin(clonal_patient_gene_matrix.index)]
-full_df_clonal = relapse_df_clonal.merge(
-    clonal_patient_gene_matrix,
-    left_on="sample_id",
-    right_index=True,
-    how="left"
-)
-full_df_clonal = full_df_clonal.sort_values(by='relapse_status')
-row_colors = full_df_clonal["relapse_status"].map({
-    'Yes': "red",
-    'No': "blue"
-})
-full_df_clonal = full_df_clonal.drop(columns=['relapse_status', 'sample_id'])
-clonal_gene_freq = full_df_clonal.sum(axis=0).sort_values(ascending=False)
-top_clonal_genes = clonal_gene_freq.head(20).index
-sorted_matrix_clonal = full_df_clonal[top_clonal_genes]
-g_clonal = sns.clustermap(
-    sorted_matrix_clonal,
-    row_cluster=False,
-    col_cluster=False,
-    row_colors=row_colors,
-    cmap="Reds",
-    yticklabels=False
-)
-# Force ALL gene labels to show
-g_clonal.ax_heatmap.set_xticks(range(len(sorted_matrix_clonal.columns)))
-g_clonal.ax_heatmap.set_xticklabels(
-    sorted_matrix_clonal.columns,
-    rotation=90,
-    fontsize=8
-)
-plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_top_clonal_genes_heatmap.png')
+# # CREATE HEATMAP OF TOP 20 GENES IN CLONAL MUTATIONS ACROSS RELAPSE VS NON-RELAPSE PATIENTS
+# relapse_df_clonal = relapse_df[relapse_df["sample_id"].isin(clonal_patient_gene_matrix.index)]
+# full_df_clonal = relapse_df_clonal.merge(
+#     clonal_patient_gene_matrix,
+#     left_on="sample_id",
+#     right_index=True,
+#     how="left"
+# )
+# full_df_clonal = full_df_clonal.sort_values(by='relapse_status')
+# row_colors = full_df_clonal["relapse_status"].map({
+#     'Yes': "red",
+#     'No': "blue"
+# })
+# full_df_clonal = full_df_clonal.drop(columns=['relapse_status', 'sample_id'])
+# clonal_gene_freq = full_df_clonal.sum(axis=0).sort_values(ascending=False)
+# top_clonal_genes = clonal_gene_freq.head(20).index
+# sorted_matrix_clonal = full_df_clonal[top_clonal_genes]
+# g_clonal = sns.clustermap(
+#     sorted_matrix_clonal,
+#     row_cluster=False,
+#     col_cluster=False,
+#     row_colors=row_colors,
+#     cmap="Reds",
+#     yticklabels=False
+# )
+# # Force ALL gene labels to show
+# g_clonal.ax_heatmap.set_xticks(range(len(sorted_matrix_clonal.columns)))
+# g_clonal.ax_heatmap.set_xticklabels(
+#     sorted_matrix_clonal.columns,
+#     rotation=90,
+#     fontsize=8
+# )
+# plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_top_clonal_genes_heatmap.png')
 
 """
 find co-mutated genes in subclonal vs clonal mutations - 20x20 matrices
 then co-occurrence networks?
 """
+
+pair_stats = defaultdict(lambda: {
+    "count": 0,
+    "cellular_prevalence_values": []
+})
+# keep relapse only
+myclone_results_relapse = myclone_results_combined_genes[myclone_results_combined_genes['relapse_status']=='No']
+samples = set(myclone_results_relapse["sample_id"])
+for p in samples:
+    df_p = myclone_results_relapse[myclone_results_relapse["sample_id"] == p]
+    for clone_id, group in df_p.groupby("cluster_id"):
+        genes = set(group["Hugo_Symbol"].dropna())
+        clone_ccf = group["cellular_prevalence"].mean()
+        if clone_ccf < 0:
+            continue
+        for g1, g2 in combinations(sorted(genes), 2):
+            pair = (g1, g2)
+
+            pair_stats[pair]["count"] += 1
+            pair_stats[pair]["cellular_prevalence_values"].append(clone_ccf)
+
+results = []
+for (g1, g2), stats in pair_stats.items():
+    ccf_array = np.array(stats["cellular_prevalence_values"])
+
+    results.append({
+        "gene1": g1,
+        "gene2": g2,
+        "count": stats["count"],
+        "mean_ccf": ccf_array.mean(),
+        "median_ccf": np.median(ccf_array),
+        "high_ccf_fraction": np.mean(ccf_array > 0.7),   # clonal fraction
+        "mid_ccf_fraction": np.mean((ccf_array > 0.2) & (ccf_array <= 0.7)), # high subclonal fraction
+        "low_ccf_fraction": np.mean(ccf_array < 0.2)     # subclonal fraction
+    })
+
+pair_df = pd.DataFrame(results).sort_values("count", ascending=False)
+pair_df = pair_df[ # remove noise by only keeping pairs that co-occur in at least 3 patients and remove pairs of the same gene
+    (pair_df["count"] >= 1) &
+    (pair_df["gene1"] != pair_df["gene2"])
+]
+print(pair_df.head(20))
+# save to csv
+pair_df.to_csv('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/myclone-output_combined/myclone_gene_pair_cooccurrence_non-relapse.tsv', sep='\t', index=False)
+
+# SCATTERPLOT OF MEAN CCF OF GENE PAIR VS CO-OCCURRENCE COUNT
+sns.scatterplot(
+    data=pair_df,
+    x="count",
+    y="mean_ccf"
+)
+plt.xlabel("Co-occurrence frequency")
+plt.ylabel("Mean CCF")
+plt.title("Clonal vs Subclonal Gene Pairs in Relapse Patients")
+plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_gene_pair_cooccurrence_scatterplot_non-relapse.png')
+print('scatterplot done')
+
+# HEATMAP OF TOP 20 GENE PAIRS BY CO-OCCURRENCE COUNT
+top_pairs = pair_df.head(20)
+pivot_count = top_pairs.pivot(index = "gene1", columns = "gene2", values = "count").fillna(0)
+pivot_ccf = top_pairs.pivot(index = "gene1", columns = "gene2", values = "mean_ccf").fillna(0)
+plt.figure(figsize = (15,10))
+sns.heatmap(pivot_count, cmap="Reds")
+sns.heatmap(
+    pivot_count,
+    cmap="Reds",
+    annot=pivot_ccf.round(2),
+    fmt=".2g"
+)
+plt.title("Co-occurrence (color) + CCF (text)")
+plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_gene_pair_cooccurrence_heatmap_non-relapse.png')
+print('heatmap done')
+
+# CREATE CO-OCCURRENCE NETWORK OF TOP GENE PAIRS
+G = nx.Graph()
+
+# Add edges
+for _, row in pair_df.iterrows():
+    if row["count"] < 3:  # filter noise
+        continue
+
+    G.add_edge(
+        row["gene1"],
+        row["gene2"],
+        weight=row["count"],
+        ccf=row["mean_ccf"]
+    )
+
+# Layout
+pos = nx.spring_layout(G, seed=42)
+
+# Edge properties
+edges = G.edges(data=True)
+
+weights = [e[2]["weight"] for e in edges]
+ccfs = [e[2]["ccf"] for e in edges]
+
+# Normalize for plotting
+norm_ccf = [(c - min(ccfs)) / (max(ccfs) - min(ccfs)) for c in ccfs]
+
+# Draw
+plt.figure(figsize = (10,10))
+nx.draw_networkx_nodes(G, pos, node_size=200)
+
+nx.draw_networkx_edges(
+    G, pos,
+    width=[w for w in weights],
+    edge_color=norm_ccf,
+    edge_cmap=plt.cm.coolwarm  # blue → red
+)
+# red edge --> high ccf
+# blue edge --> low ccf
+# thicker --> more frequent cooccurence
+nx.draw_networkx_labels(G, pos)
+
+plt.title("Gene Co-occurrence Network (CCF encoded)")
+plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_gene_pair_cooccurrence_network_non-relapse.png')
