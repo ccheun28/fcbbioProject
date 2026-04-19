@@ -11,8 +11,8 @@ import matplotlib.pyplot as plt
 
 
 # Load the combined clonal and mutation data
-data = pd.read_csv('myclone-output_combined/myclone_results_combined_genes.tsv', sep='\t')
-patient_gene_matrix = pd.read_csv('myclone-output_combined/myclone_patient-gene_matrix.tsv', sep='\t')
+data = pd.read_csv('pyclone_output_combined/pyclone_output_combined_genes.tsv', sep='\t')
+patient_gene_matrix = pd.read_csv('pyclone_output_combined/pyclone_patient-gene_matrix.tsv', sep='\t')
 # Get top 20 mutated genes
 patient_gene_matrix = patient_gene_matrix.drop(columns=['sample_id'])
 gene_freq = patient_gene_matrix.sum(axis=0).sort_values(ascending=False)
@@ -78,7 +78,7 @@ plt.figure(figsize=(8, 6))
 plt.barh(feature_importance['feature'], feature_importance['coefficient'])
 plt.xlabel('Coefficient')
 plt.title('Feature Importance in Logistic Regression')
-plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_prediction_feature_importance.png')
+plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/pyclone_prediction_feature_importance.png')
 
 # Plot ROC curve
 fpr, tpr, thresholds = roc_curve(y_test, y_pred_proba)
@@ -89,4 +89,4 @@ plt.xlabel('False Positive Rate')
 plt.ylabel('True Positive Rate')
 plt.title('ROC Curve')
 plt.legend(loc='lower right')
-plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_prediction_roc_curve.png')
+plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/pyclone_prediction_roc_curve.png')

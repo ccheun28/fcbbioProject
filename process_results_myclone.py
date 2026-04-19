@@ -82,9 +82,9 @@ print(myclone_results_combined_df.head())
 
 ### ## ADD GENE NAMES TO MYCLONE RESULTS
 
-input_path = '/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/myclone-output_combined/myclone_results_combined.tsv'
+input_path = '/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/pyclone_output_combined/pyclone_output_combined.tsv'
 maf_input_path = '/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/data/raw'
-output_path = '/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/myclone-output_combined/myclone_results_combined_genes.tsv'
+output_path = '/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/pyclone_output_combined/pyclone_output_combined_genes.tsv'
 
 # map mutation ID to gene name
 def map_mutation_to_gene(maf_df):

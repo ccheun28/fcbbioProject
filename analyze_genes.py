@@ -15,44 +15,44 @@ import networkx as nx
 OVERVIEW OF ALL GENES
 """
 ## CREATE BINARY PATIENT-LEVEL GENE MUTATION MATRIX
-myclone_results_combined_genes = pd.read_csv('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/myclone-output_combined/myclone_results_combined_genes.tsv', sep='\t')
+myclone_results_combined_genes = pd.read_csv('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/pyclone_output_combined/pyclone_output_combined_genes.tsv', sep='\t')
 # patient_gene_matrix = myclone_results_combined_genes.groupby(['sample_id', 'Hugo_Symbol']).size().unstack(fill_value=0)
 # patient_gene_matrix = (patient_gene_matrix > 0).astype(int) # convert to binary
 # print(patient_gene_matrix.shape)
 # print(patient_gene_matrix.head())
-# patient_gene_matrix.to_csv('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/myclone-output_combined/myclone_patient-gene_matrix.tsv', sep='\t', index=True)
+# patient_gene_matrix.to_csv('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/pyclone_output_combined/pyclone_patient-gene_matrix.tsv', sep='\t', index=True)
 
-## CREATE HEATMAP OF MUTATED GENES ACROSS RELAPSE VS NON-RELAPSE PATIENTS
-patient_gene_matrix = pd.read_csv('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/myclone-output_combined/myclone_patient-gene_matrix.tsv', sep='\t', index_col=0)
-relapse_df = pd.read_csv('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/relapse_dict.csv', sep=',')
-relapse_df = relapse_df.rename(columns={'caseID': 'sample_id'})
+# ## CREATE HEATMAP OF MUTATED GENES ACROSS RELAPSE VS NON-RELAPSE PATIENTS
+# patient_gene_matrix = pd.read_csv('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/pyclone_output_combined/pyclone_patient-gene_matrix.tsv', sep='\t', index_col=0)
+# relapse_df = pd.read_csv('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/relapse_dict.csv', sep=',')
+# relapse_df = relapse_df.rename(columns={'caseID': 'sample_id'})
 
-# Merge mutation data
-full_df = relapse_df.merge(
-    patient_gene_matrix,
-    left_on="sample_id",
-    right_index=True,
-    how="left"
-)
+# # Merge mutation data
+# full_df = relapse_df.merge(
+#     patient_gene_matrix,
+#     left_on="sample_id",
+#     right_index=True,
+#     how="left"
+# )
 
-full_df = full_df.sort_values(by='relapse_status')
-# Row colors
-row_colors = full_df["relapse_status"].map({
-    'Yes': "red",
-    'No': "blue"
-})
+# full_df = full_df.sort_values(by='relapse_status')
+# # Row colors
+# row_colors = full_df["relapse_status"].map({
+#     'Yes': "red",
+#     'No': "blue"
+# })
 
-# only keep relapse/non-relapse patients for heatmap
+# # only keep relapse/non-relapse patients for heatmap
 # full_df = full_df[
-#     full_df["relapse_status"] == 'No'
+#     full_df["relapse_status"] == 'Yes'
 # ]
 
-# create sorted heatmap of all mutated genes across relapse patients
-# sort genes by mutation frequency
-full_df = full_df.drop(columns=['relapse_status', 'sample_id'])
-gene_freq = full_df.sum(axis=0).sort_values(ascending=False)
-# print(gene_freq.head(20))
-# top_n = 75
+# # create sorted heatmap of all mutated genes across relapse patients
+# # sort genes by mutation frequency
+# full_df = full_df.drop(columns=['relapse_status', 'sample_id'])
+# gene_freq = full_df.sum(axis=0).sort_values(ascending=False)
+# # print(gene_freq.head(20))
+# top_n = 50
 # top_genes = gene_freq.head(top_n).index
 # sorted_matrix = full_df[top_genes]
 # print(sorted_matrix.shape)
@@ -73,10 +73,10 @@ gene_freq = full_df.sum(axis=0).sort_values(ascending=False)
 #     rotation=90,
 #     fontsize=8
 # )
-# plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_patient-gene_matrix_heatmap_all.png')
+# plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/pyclone_patient-gene_matrix_heatmap_relapse.png')
 
 ## CREATE HEATMAP OF MUTATED GENES SORTED BY PATIENT MRD LEVELS
-# mrd_df = pd.read_csv('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/myclone-output_combined/myclone_results_combined.tsv', sep='\t')
+# mrd_df = pd.read_csv('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/pyclone_output_combined/pyclone_output_combined.tsv', sep='\t')
 # mrd_df = mrd_df[["sample_id", "MRD_EOI_Pct"]].drop_duplicates(subset="sample_id")
 
 # full_df = mrd_df.merge(
@@ -129,7 +129,7 @@ gene_freq = full_df.sum(axis=0).sort_values(ascending=False)
 # cbar = plt.colorbar(sm, ax=g.ax_heatmap)
 # cbar.set_label("MRD_EOI_Pct")
 
-# plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_patient-gene_matrix_heatmap_mrd.png')
+# plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/pyclone_patient-gene_matrix_heatmap_mrd.png')
 
 """
 MORE DETAILED ANALYSIS OF MUTATED GENES IN MYCLONE RESULTS
@@ -139,11 +139,11 @@ MORE DETAILED ANALYSIS OF MUTATED GENES IN MYCLONE RESULTS
 - are there genes mutated together/first?
 """
 
-# CREATE HISTOGRAM OF CELLULAR FREQUENCY DISTRIBUTION ACROSS TOP 10 MUTATED GENES
-# i.e. of the patients who have these mutations, 
-# what is the distribution of cellular prevalence for each gene? 
-# Are there genes that tend to be more clonal vs subclonal? 
-# Are there differences in the distribution of cellular prevalence for these top genes between relapse vs non-relapse patients?
+# # CREATE HISTOGRAM OF CELLULAR FREQUENCY DISTRIBUTION ACROSS TOP 10 MUTATED GENES
+# # i.e. of the patients who have these mutations, 
+# # what is the distribution of cellular prevalence for each gene? 
+# # Are there genes that tend to be more clonal vs subclonal? 
+# # Are there differences in the distribution of cellular prevalence for these top genes between relapse vs non-relapse patients?
 # top_genes = gene_freq.head(20).index
 # top_genes_df = myclone_results_combined_genes[myclone_results_combined_genes["Hugo_Symbol"].isin(top_genes)]
 # # remove clusters with cellular prevalence of <0 (i.e. not actually detected in sample)
@@ -177,11 +177,11 @@ MORE DETAILED ANALYSIS OF MUTATED GENES IN MYCLONE RESULTS
 #     ax.set_title(gene)
 #     ax.legend()
 # plt.tight_layout()
-# plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_top_genes_cellular_prevalence_histograms.png')
+# plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/pyclone_top_genes_cellular_prevalence_histograms.png')
 
 
-# FIND TOP GENES IN SUBCLONAL MUTATIONS VS CLONAL MUTATIONS
-# create new patient-gene matrix only for cellular prevalence <0.2 (subclonal)
+# # FIND TOP GENES IN SUBCLONAL MUTATIONS VS CLONAL MUTATIONS
+# # create new patient-gene matrix only for cellular prevalence <0.2 (subclonal)
 # subclonal_genes_df = myclone_results_combined_genes[myclone_results_combined_genes["cellular_prevalence"] <= 0.2]
 # subclonal_patient_gene_matrix = subclonal_genes_df.groupby(['sample_id', 'Hugo_Symbol']).size().unstack(fill_value=0)
 # subclonal_patient_gene_matrix = (subclonal_patient_gene_matrix > 0).astype(int) # convert to binary
@@ -240,7 +240,7 @@ MORE DETAILED ANALYSIS OF MUTATED GENES IN MYCLONE RESULTS
 #     rotation=90,
 #     fontsize=8
 # )
-# plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_top_subclonal_genes_heatmap.png')
+# plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/pyclone_top_subclonal_genes_heatmap.png')
 
 # # CREATE HEATMAP OF TOP 20 GENES IN HIGH SUBCLONAL MUTATIONS ACROSS RELAPSE VS NON-RELAPSE PATIENTS
 # relapse_df_high_subclonal = relapse_df[relapse_df["sample_id"].isin(high_subclonal_patient_gene_matrix.index)]
@@ -274,7 +274,7 @@ MORE DETAILED ANALYSIS OF MUTATED GENES IN MYCLONE RESULTS
 #     rotation=90,
 #     fontsize=8
 # )
-# plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_top_high_subclonal_genes_heatmap.png')
+# plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/pyclone_top_high_subclonal_genes_heatmap.png')
 
 # # CREATE HEATMAP OF TOP 20 GENES IN CLONAL MUTATIONS ACROSS RELAPSE VS NON-RELAPSE PATIENTS
 # relapse_df_clonal = relapse_df[relapse_df["sample_id"].isin(clonal_patient_gene_matrix.index)]
@@ -308,7 +308,7 @@ MORE DETAILED ANALYSIS OF MUTATED GENES IN MYCLONE RESULTS
 #     rotation=90,
 #     fontsize=8
 # )
-# plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_top_clonal_genes_heatmap.png')
+# plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/pyclone_top_clonal_genes_heatmap.png')
 
 """
 find co-mutated genes in subclonal vs clonal mutations - 20x20 matrices
@@ -320,7 +320,7 @@ pair_stats = defaultdict(lambda: {
     "cellular_prevalence_values": []
 })
 # keep relapse only
-myclone_results_relapse = myclone_results_combined_genes[myclone_results_combined_genes['relapse_status']=='No']
+myclone_results_relapse = myclone_results_combined_genes[myclone_results_combined_genes['relapse_status']=='Yes']
 samples = set(myclone_results_relapse["sample_id"])
 for p in samples:
     df_p = myclone_results_relapse[myclone_results_relapse["sample_id"] == p]
@@ -357,9 +357,10 @@ pair_df = pair_df[ # remove noise by only keeping pairs that co-occur in at leas
 ]
 print(pair_df.head(20))
 # save to csv
-pair_df.to_csv('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/myclone-output_combined/myclone_gene_pair_cooccurrence_non-relapse.tsv', sep='\t', index=False)
+pair_df.to_csv('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/pyclone_output_combined/pyclone_gene_pair_cooccurrence_relapse.tsv', sep='\t', index=False)
 
 # SCATTERPLOT OF MEAN CCF OF GENE PAIR VS CO-OCCURRENCE COUNT
+plt.figure()
 sns.scatterplot(
     data=pair_df,
     x="count",
@@ -368,7 +369,7 @@ sns.scatterplot(
 plt.xlabel("Co-occurrence frequency")
 plt.ylabel("Mean CCF")
 plt.title("Clonal vs Subclonal Gene Pairs in Relapse Patients")
-plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_gene_pair_cooccurrence_scatterplot_non-relapse.png')
+plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/pyclone_gene_pair_cooccurrence_scatterplot_relapse.png')
 print('scatterplot done')
 
 # HEATMAP OF TOP 20 GENE PAIRS BY CO-OCCURRENCE COUNT
@@ -384,7 +385,7 @@ sns.heatmap(
     fmt=".2g"
 )
 plt.title("Co-occurrence (color) + CCF (text)")
-plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_gene_pair_cooccurrence_heatmap_non-relapse.png')
+plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/pyclone_gene_pair_cooccurrence_heatmap_relapse.png')
 print('heatmap done')
 
 # CREATE CO-OCCURRENCE NETWORK OF TOP GENE PAIRS
@@ -415,7 +416,7 @@ ccfs = [e[2]["ccf"] for e in edges]
 norm_ccf = [(c - min(ccfs)) / (max(ccfs) - min(ccfs)) for c in ccfs]
 
 # Draw
-plt.figure(figsize = (10,10))
+plt.figure(figsize = (20,20))
 nx.draw_networkx_nodes(G, pos, node_size=200)
 
 nx.draw_networkx_edges(
@@ -430,4 +431,4 @@ nx.draw_networkx_edges(
 nx.draw_networkx_labels(G, pos)
 
 plt.title("Gene Co-occurrence Network (CCF encoded)")
-plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/myclone_gene_pair_cooccurrence_network_non-relapse.png')
+plt.savefig('/Users/biancakolim/Desktop/Academic/Spring2026/FCBB/final/fcbbioProject/figures/pyclone_gene_pair_cooccurrence_network_relapse.png')
