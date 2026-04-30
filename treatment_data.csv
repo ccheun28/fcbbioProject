@@ -1,0 +1,1509 @@
+sample_id,treatment_regimen,risk_group,intensity,mtx_type,steroid_type,down_syndrome
+MP2PRT-PAUUDV,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATFUR,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAUXHS,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARRXA,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PATKHY,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVUXV,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAVDSG,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARTRW,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAWAVL,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARCUW,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAUDGG,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVKIZ,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUTIB,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PANWDL,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAPWJS,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAPVUX,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PAUUCT,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPZUE,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PATZFJ,B-ALL SR Down Syndrome (Arm DS) Post-Induction Therapy,0,1,0,0,1
+MP2PRT-PATTVG,"(DH)  2 weeks Dexamethasone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,2,0
+MP2PRT-PAUBVI,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPSTK,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PASRBU,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PATEKK,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAPDGD,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAVWUF,Post Induction Therapy � HR-DS Patients,3,1,0,0,1
+MP2PRT-PAVSAX,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPDPX,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAUJIN,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PARVMM,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAUGEX,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATEXZ,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUSIG,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPZGC,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PAPGLX,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PATGPJ,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAWADL,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARYIF,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PARTYW,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PAVGDA,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPRFR,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVGWA,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARAUT,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAVWVN,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUKXK,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASZKY,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PAWAJH,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARXJS,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAPZKC,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAVHWD,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUBNT,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVFDB,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PATFGX,"(DH)  2 weeks Dexamethasone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,2,0
+MP2PRT-PAUAHK,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASPMM,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAPWDV,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAUEVI,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVITN,B-ALL Down Syndrome Induction Therapy,0,1,0,0,1
+MP2PRT-PATCEJ,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PASWJK,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PASLCJ,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUYKE,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARUCC,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUTWU,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATJLH,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPZNW,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PASXGB,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUUGN,B-ALL Down Syndrome Induction Therapy,0,1,0,0,1
+MP2PRT-PATZUM,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAPJHP,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PASRHM,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAPCED,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAUYYJ,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAPTAS,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PANVKF,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PASNHW,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PATBCY,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAWAAH,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUINY,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUFHH,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVYEI,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUGNP,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATXJS,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAUZKH,Experimental Arm 2 � VHR Patients,3,1,0,0,0
+MP2PRT-PASGWZ,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAUMTE,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAVYDP,Post Induction Therapy � HR-DS Patients,3,1,0,0,1
+MP2PRT-PAVNKF,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUTJG,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARMHC,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PAVMMM,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PATVFR,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PASHUC,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PASLFB,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PARULL,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PARXYG,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAUPVZ,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARGMK,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAVMFV,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARUAT,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PASYYC,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVUCJ,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PATYAW,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARDHZ,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAPXVZ,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PANCZY,"(DH)  2 weeks Dexamethasone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,2,0
+MP2PRT-PAUHWL,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPDGX,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PARKJI,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PAUKUS,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARIAX,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PATDUT,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPJFZ,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PASDPC,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PARAXR,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PAVMVV,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASUIG,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAURHS,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUCWZ,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PARMBX,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PAPEBX,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PATHCV,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAPWMU,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAVVMN,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PATRPS,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PAVRLF,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVDUV,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PASVCX,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAUKIA,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PANEZV,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PASNHD,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PAVEAY,Non-Down Syndrome Induction Therapy,0,1,0,0,1
+MP2PRT-PARPLH,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PATDGG,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PASLLV,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVNYR,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAPIBD,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PASKRT,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PASJVB,"(DH)  2 weeks Dexamethasone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,2,0
+MP2PRT-PANTYP,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAVEDY,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATISM,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVFHA,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARWEB,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAVULN,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PASLIU,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUPYK,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATIIB,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPYPX,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PASSFZ,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAUJVW,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARWCC,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUMAX,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARBEE,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAUEAY,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PANYNM,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PATZWF,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPYRA,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PASMCE,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PARWFC,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAVPNL,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPHNJ,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PAVNHF,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUKXN,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUJGU,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARKAZ,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PAUCLB,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPMRY,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PATLJH,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PANXLR,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PARYIG,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PATBWZ,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAUBIJ,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PANMVY,"(DH)  2 weeks Dexamethasone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,2,0
+MP2PRT-PAVMSP,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPWGV,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PATWPR,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUBNK,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PARTXK,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PARRTD,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PASKBE,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUMHP,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVWAY,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAPVDY,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAPZGI,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PARGNB,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAPSMF,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PARLDF,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PAUBBT,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATKFS,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVNLM,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVMPD,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATFZK,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PARACA,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PAULIE,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASGWX,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVICX,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATWDE,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARRCJ,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PATLER,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAVNKV,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PARXRZ,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PAUJRH,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASRGI,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PAVYRT,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PANURD,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PASMRW,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PAPGEE,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVFRZ,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATSMV,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PAUKFW,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVEVB,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUREZ,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPUWP,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PAPREX,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAVUFJ,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATGAM,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PARXJU,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PARKBL,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PASZLS,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PATHJM,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PATMZW,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PAWALE,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASJMB,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAVTFG,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PASUBB,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PASNYX,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAUYKL,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVPBN,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PARCYM,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAUMUM,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPADT,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUIAH,B-ALL SR Down Syndrome (Arm DS) Post-Induction Therapy,0,1,0,0,1
+MP2PRT-PATULJ,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAVYYP,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATZBG,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATHZF,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PARHLX,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PAVDAU,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARNFM,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PASLXT,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAPUSF,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PASSXJ,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVUPL,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAVIWE,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVDCZ,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAUWMA,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVJUN,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAUADN,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVUME,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASGTJ,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PARMFW,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PATFGE,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAPASU,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PATDGD,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVTHK,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPCNZ,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAPDDA,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PAUEJC,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATVHI,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPFFW,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PATCJG,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAPDYH,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PAWCSN,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PARXCJ,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PASNPT,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAUMRK,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVGDD,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUUKU,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARJZV,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PARUWV,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PARHUN,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAUDIE,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PASDGZ,"(DH)  2 weeks Dexamethasone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,2,0
+MP2PRT-PAUULK,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PARKNI,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAVAMH,Experimental Arm 1 � VHR Patients,3,1,0,0,0
+MP2PRT-PASHHR,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PARKUN,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PARPVS,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAUBKT,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARUYH,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PAUGJY,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAVMJA,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PARVZG,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAPCTZ,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAUKWT,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUBZC,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVNCF,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUHAP,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVRGM,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAUPZC,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASJBX,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVYIV,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUNHM,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASXLV,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PATTRU,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASWRT,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PASPHZ,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAPPNT,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PAURZG,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATBWC,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PARXDT,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PANZDA,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAUYIZ,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUABA,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATAUA,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPEMC,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PASRMH,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PANYYY,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PAUJKU,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATUUD,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PAVUJV,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASZEN,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PASKSI,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVXJU,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUFPW,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASYAI,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPGWN,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUZKL,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAVUNT,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASXUP,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PATCUA,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVUNV,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATDAG,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAPKCL,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAVGZX,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PASTUZ,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PANVCH,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PASVAF,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PAUKVW,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUGBT,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARSZU,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAUJML,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATISJ,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PARFZG,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PANUKF,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAVYZH,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASRBW,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PATFZU,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAUCPZ,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATSJE,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVLPX,Non-Down Syndrome Induction Therapy,0,1,0,0,1
+MP2PRT-PASTID,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PATETU,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PASZGH,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVJIY,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PANVJN,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PASMXJ,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PARSHU,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAPHIG,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PARPWV,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAUYUG,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARUDF,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAVTNV,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAWAEZ,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAVXHZ,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUCHB,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATWVD,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVIPS,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATAVL,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAULAU,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPSEW,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PASKPJ,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PARVZW,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAVEEC,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAWAKH,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVYHJ,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPMIJ,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PARSZZ,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAVECU,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARRMA,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PASJVH,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVJEF,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAVZKG,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVIVS,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARVFU,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PAPTLM,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PANDVD,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PAVUZL,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUVJI,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUJVM,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASVHC,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAPBAI,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAVXZY,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATEWZ,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PASUMX,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVPYR,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAVTIT,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVSTN,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PATBBU,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PANZLJ,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PARSGC,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PARRRR,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PASTIP,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PASWZM,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PASXRL,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAUGAW,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVPXM,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVXWF,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATAEZ,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PASJYU,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVHUK,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PANWNY,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVHEV,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVWEV,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAUMET,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVJUE,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAUSTG,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPANB,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PASRTJ,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAWBPC,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATCZK,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PARTRF,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUYFM,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PATHFL,"(DH)  2 weeks Dexamethasone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,2,0
+MP2PRT-PAVAHL,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATBML,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPIPG,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAPIAC,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PATBBD,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAUJFA,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVUKM,Non-Down Syndrome Induction Therapy,0,1,0,0,1
+MP2PRT-PARVAC,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUITP,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUCYW,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVHMC,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPEZL,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAVLKS,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PASVKN,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PATESM,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVHBM,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVAWE,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUNIX,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARWFA,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAWCEL,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPVDC,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAUPSD,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUIWZ,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPZKX,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PATIRV,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PASYCR,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PASUXJ,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAPHBW,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAPLTV,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PASYNP,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PASXXB,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PARMRR,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAPBZW,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAVYIF,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATDNM,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAPDFA,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PASSHE,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAWAHB,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASUWM,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PASTPH,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PATXPS,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARMGD,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAULKT,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVHLK,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PANZBY,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAUFRZ,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVSVG,B-ALL SR Down Syndrome (Arm DS) Post-Induction Therapy,0,1,0,0,1
+MP2PRT-PAUFIS,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAWAKY,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARPEE,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PASZLL,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVEPK,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUKVY,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATXKD,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVHCS,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATBMU,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAPTRI,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PAUJND,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPMWX,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PAVYXX,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATJIK,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PARLEE,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PATIVJ,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PASYLA,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVWLM,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PATRYC,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVFZM,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASNZF,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PASSZG,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPWDJ,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PAPBTZ,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUTEG,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARTLU,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAVDRK,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASPUH,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVWIS,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAWAZE,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARJFU,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PANZUY,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAVNTA,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PANTXA,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PARGNS,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAPGZW,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAVCSV,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PARCIY,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAPFHT,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PASVNV,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PATWWA,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PATHZM,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PARYCA,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAUMSI,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAUCIG,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARCWJ,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAUTVD,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PAVUTC,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATAGU,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVETT,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PAVEKF,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATYAT,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUXFS,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATTLH,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATUEF,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARPZJ,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PATFJE,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PASZFM,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PARRLJ,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PARNFB,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAVHIF,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVBCT,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAVFSA,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUGEG,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASTZJ,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAPEJM,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PATGTW,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPSAW,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUGBS,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUEZG,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATIKB,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAUAXY,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAWCRT,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVDHB,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAUTCU,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PASZBI,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PASSAV,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PATZUN,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVHRB,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATKJC,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAUYBD,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUARG,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASZBR,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAUZVL,Control Arm � VHR Patients,3,1,0,0,0
+MP2PRT-PAVAGF,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARKKC,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PASEZC,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PARTUB,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAUILL,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATUFY,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATCGP,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PASMAV,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAPEXA,"(DH)  2 weeks Dexamethasone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,2,0
+MP2PRT-PARDLC,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PAPVGP,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PASLLA,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAUYAK,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PANZZI,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAPAXH,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PASYWZ,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PATJPX,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PATITF,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PATZJN,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARUHV,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PASUMA,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPRGC,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAWBWM,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVKND,B-ALL SR Down Syndrome (Arm DS) Post-Induction Therapy,0,1,0,0,1
+MP2PRT-PANVJV,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAVAXA,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPKTA,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PARNXA,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAUVBP,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASVHK,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPZKR,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PATJHE,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVENE,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PANVJI,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAVPPB,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASPDY,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PARYAJ,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAPTNI,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PARTAW,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAPJBY,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PAUHMP,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVUYA,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUBPJ,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARFDY,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PATJED,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PATFGT,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUTUD,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVFYW,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAUIRM,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVEBR,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASFNN,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PAUIBC,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVNLG,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVRUY,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARSLF,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAPXNH,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PATHUJ,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPTJW,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAVRDA,Non-Down Syndrome Induction Therapy,0,1,0,0,1
+MP2PRT-PAPZAK,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUFJB,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPXIK,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PAUFBN,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAURXV,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATBNX,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAPIGD,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAVGFU,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPPIJ,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PARGSB,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PARMEG,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PAVGER,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PANUHD,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVSGZ,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPIZN,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PAVWXR,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASMKY,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAUCLU,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARKGN,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PASRPG,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUDSA,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPJNL,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PAVDAP,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PAVEHA,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUGMH,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAURMT,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARSRU,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PARYCT,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PATXVA,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARRRW,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAUNFW,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPHVV,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PASMVF,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVSLS,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATGNR,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUKLH,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASWGG,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVXTX,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATCYB,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAUSXF,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARKPM,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PARLNT,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PAVJBY,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVDUI,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAVZIR,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PANYCF,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAVWZE,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUFMP,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASXZH,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PARVAN,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PATBKT,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PATCMH,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAUEYI,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPVMA,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PATYTP,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVWKZ,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUMNF,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAVHLF,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPXUS,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PAWBHS,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATJUZ,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PANXSV,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PATKUJ,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PASJFM,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PARWRE,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PAUYIT,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPWCD,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUTUX,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVYRC,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVAYG,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAPFHC,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PARKBE,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAPYSK,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PAVRXY,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAUJRD,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAWCVA,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAWCGJ,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASPLI,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PARLMM,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAPHIJ,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAUYSG,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVKWM,Non-Down Syndrome Induction Therapy,0,1,0,0,1
+MP2PRT-PASVME,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVZFV,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASZAC,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PASLBF,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUFKI,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATZVR,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPFDX,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PASYDS,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PATYVP,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATZNC,B-ALL SR Down Syndrome (Arm DS) Post-Induction Therapy,0,1,0,0,1
+MP2PRT-PAUKDC,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASIEI,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PARPTE,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAPBLF,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAVLRL,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUCXR,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASTER,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAUEDJ,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASZMM,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PANWGG,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PASWUK,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PARXIG,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PASLDF,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PARXMC,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAVFHX,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARLAF,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PARUGP,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PATINB,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PARLUL,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PASPAP,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PATHHX,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PATLEC,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PARGFF,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PAVHYF,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASJSX,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVVIS,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASWVK,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVLHB,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATCUP,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVJJG,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PASTRA,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVLTY,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PATEMU,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVXRW,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARMVN,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PANVDK,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PASJZB,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PARTSD,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PATFHS,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVHAP,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATHAI,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAPJHM,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUVDR,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASNAY,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PARVKR,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PASZLD,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PASRME,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPZRA,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAUMSX,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARBIA,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PARBBV,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PAVUSC,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASGCS,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAUPBA,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAPVTA,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAVFUF,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVUIG,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PASPCZ,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PASSIK,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAUFSB,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASIVR,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVEHH,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPAYV,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAVWAG,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARNSB,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVZIN,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PANXJC,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAURSE,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVTFR,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PARTGF,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PASKXZ,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PASZEJ,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPLBX,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PARIHP,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PAUJCZ,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARXZI,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAVIDY,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARVFZ,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVVCA,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVDWB,Non-Down Syndrome Induction Therapy,0,1,0,0,1
+MP2PRT-PAUUIY,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASNUW,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVCEP,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PANUAU,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PAUGDC,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASNVN,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUUFR,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASIPX,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAVLMU,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATKIA,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PASYVA,"(DH)  2 weeks Dexamethasone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,2,0
+MP2PRT-PAVWUM,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PAVMXX,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAWBKL,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATGRT,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PARJZU,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAVHMU,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PATEUZ,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAPVNZ,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PARWTB,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PAVLKT,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATWWZ,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVTRL,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPFHY,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PAVVLH,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PAVHTD,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PANWSP,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PARKKL,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAVKAE,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARSPN,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAULRX,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASUJL,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAVTJI,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASUMM,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVYFY,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARHDT,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAVTYD,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PAPBLE,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAPZBM,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAURDP,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUCBI,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARVFG,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PASHUI,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAVSRL,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARBVY,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAPYZH,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAVERF,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVPRT,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAUTXE,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVFZA,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PANWYH,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAPTVF,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PASRKE,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PARGGX,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PATBWR,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVEET,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPHHE,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PARERN,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PATFLY,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PATCNN,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PATFLN,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAUXJG,Experimental Arm 2 � VHR Patients,3,1,0,0,0
+MP2PRT-PAVTWD,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAWCEE,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PANWUT,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAUHRK,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARAGV,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PASNMS,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPIJB,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAVSIT,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARHBJ,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAUFWB,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAWBBC,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PANXKZ,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PARKZX,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PAVMSX,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPHFA,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PARXEB,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PATBUX,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PASUEB,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PAUSAC,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARRYH,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PAPBYT,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAVHGW,Non-Down Syndrome Induction Therapy,0,1,0,0,1
+MP2PRT-PAUBNM,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PARNGY,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAPTRY,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PASIIA,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PASUHZ,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PATHAJ,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PAVDVM,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUZRH,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARLPN,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAVJGP,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUNIT,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASKFJ,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVWVM,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAUVYV,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVYRS,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PASKKT,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAUNCU,B-ALL SR Down Syndrome (Arm DS) Post-Induction Therapy,0,1,0,0,1
+MP2PRT-PASKLF,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PARWGN,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PAUCRD,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVRMB,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVKYE,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATJPT,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUVRK,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASVMH,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PARPXT,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PATETL,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAULUW,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVYKW,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAVUZU,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVXZI,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PASINL,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAWAEH,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVENH,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASWCJ,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PARINK,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PASXFR,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPFVY,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PARWLG,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PANSHK,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PAUNTH,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAULTZ,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUZZP,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATBJW,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PANUCP,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PATBKS,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAPJJD,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PAUYUF,Experimental Arm 1 � VHR Patients,3,1,0,0,0
+MP2PRT-PAPLBU,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PATXWU,"(DH)  2 weeks Dexamethasone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,2,0
+MP2PRT-PAUPZW,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUMVX,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAPHLN,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PARNFH,"(DH)  2 weeks Dexamethasone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,2,0
+MP2PRT-PARSUS,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUEFU,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARNAV,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUDCM,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVVWY,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATYNT,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PAPCVR,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAVHKR,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PAPFWC,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PARIYN,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PATCXJ,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPENK,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PATMUK,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PAPXRL,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAUGEZ,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASLRN,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAWBKV,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PANSJJ,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PATVJP,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPKMH,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PARPTV,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUAWJ,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAPWKT,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVBKW,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARNPN,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PASRLU,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAMXGS,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PARHEM,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PATZSN,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUPZB,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARJMR,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PANWXD,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAUSBG,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASKAG,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAVKSH,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATBVW,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PATIJL,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVDBJ,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVRLX,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASYID,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVSRS,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARJWA,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PATBNA,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PASCJM,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PATEMR,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PATANZ,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PARTYT,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAULEB,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVUAK,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVHMR,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATJJY,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PARVSW,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVFPS,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAUKLW,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASNSJ,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PARPMF,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PANYZE,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PAPDEU,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PARGSC,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAPWMI,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAUGSG,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUBEV,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPGZN,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAULVB,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PATJJR,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVZJJ,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUPKG,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVUYL,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUUDM,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVJXE,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVBIU,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARTXF,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVHYU,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARIZL,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAUSLF,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVFXT,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVXPP,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAVWFL,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASKTV,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPSED,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PASJZH,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PASNJZ,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVKVU,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVLLJ,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUXKM,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAVPAF,Non-Down Syndrome Induction Therapy,0,1,0,0,1
+MP2PRT-PAVFJI,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATANU,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAUPAX,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASWGB,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVXVV,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATUHM,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PASMKE,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PATLGS,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAUPUE,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARHDU,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAVKLJ,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATFRR,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAPJHB,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAUJZZ,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUDLA,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAULUX,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPFYD,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PAUJWN,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUFFJ,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUXDG,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVKLZ,Non-Down Syndrome Induction Therapy,0,1,0,0,1
+MP2PRT-PAVAVX,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATFCN,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PAULBG,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARTRD,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PATVTU,"(DH)  2 weeks Dexamethasone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,2,0
+MP2PRT-PAVXMC,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PARGZE,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAVKPY,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARBMC,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PASVTK,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAUKXG,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVWHU,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUYTC,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASFYG,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAUJRN,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPIDY,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUPYW,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVDZD,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASRXA,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PATKBF,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PATJIU,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAPUTT,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAVHMV,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVIGV,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PARWTE,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PATRDW,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PATCKZ,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVJSX,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATYWT,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARGWZ,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVWBY,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPZJV,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PARDEY,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAVLDX,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVAYW,Experimental Arm 1 � VHR Patients,3,1,0,0,0
+MP2PRT-PASPAA,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAPGKN,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PARRHC,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAPBLU,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PANYGB,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PATBZH,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUJYA,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAREKF,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PASHTE,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PASPWX,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAUIWF,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVSIH,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUGEE,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUGTX,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATKKY,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PARPYH,"(DH)  2 weeks Dexamethasone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,2,0
+MP2PRT-PARFIZ,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PARUNF,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PASVFY,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAVSPM,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUMMI,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPIGN,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAULSM,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPAZA,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVRZK,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARUBU,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PATGYA,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVJMY,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PAVTSX,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PASIFJ,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PARPUZ,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PAPBAX,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAPFTI,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAUEFP,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATJZE,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PASRFJ,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAPSZG,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAPIUW,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PATKUX,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PARRAW,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PAVKER,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUJDW,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASZJD,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PASTMJ,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PATVXM,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATIXA,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PANWPU,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAVBTE,Experimental Arm 2 � VHR Patients,3,1,0,0,0
+MP2PRT-PAPISW,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PATGSB,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVAFT,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASHNC,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PATDVP,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAWAUS,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAPGZI,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAPCVI,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PARXZS,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PATISC,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PATWGK,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUEKN,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATGUY,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PASRCI,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAUUGC,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUKGC,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAREKT,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PATIYF,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PATBES,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAUMXL,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPNXK,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUBTF,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPUSM,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAUTJS,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUTYR,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVYJG,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATGZN,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PATXSN,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVSTK,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAMLHU,B-ALL SR Down Syndrome (Arm DS) Post-Induction Therapy,0,1,0,0,1
+MP2PRT-PASZLP,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAVIZM,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASUDE,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PASNNZ,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAUFKZ,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASNRU,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PATTGH,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PAUKRB,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPKUS,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVDUF,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVAZU,Experimental Arm 2 � VHR Patients,3,1,0,0,0
+MP2PRT-PARNXI,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PASSHT,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PATCTI,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAVJXI,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PASWCA,"(DH)  2 weeks Dexamethasone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,2,0
+MP2PRT-PAULWI,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PASRGZ,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PARULA,"(DH)  2 weeks Dexamethasone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,2,0
+MP2PRT-PAUKYU,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATTSG,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVUXR,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PASRLT,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PARHXX,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAPWDY,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PATFPW,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PATGDB,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVNRM,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAPBSS,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAWBRA,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASWZC,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVXBA,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PATDRM,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVNBN,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATIHF,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PATLRA,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVPPX,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAVUEM,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARLFJ,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAULDZ,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PATCDD,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVLXF,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASTDR,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAUUIL,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASLUW,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PARKTF,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUADZ,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAVJBD,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUAYD,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVYXI,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAWCCP,Non-Down Syndrome Induction Therapy,0,1,0,0,1
+MP2PRT-PARJVW,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAVLUV,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAVSYM,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAVPXP,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAURJE,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPJCF,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PASGIC,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PASMXV,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PATLVW,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAPLPE,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUBFD,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAWCGS,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAVCFG,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASMPE,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PARWTH,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PAVZDB,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVCFS,Experimental Arm 2 � VHR Patients,3,1,0,0,0
+MP2PRT-PAPRDN,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PATUDT,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARUSM,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PASMGK,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVPER,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAWAFX,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARPVK,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAWCIU,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAUSVA,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUWRU,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PAUMBS,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPMJA,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PASPBR,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PARCWD,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PAPBVD,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PAPMLE,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAPWML,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAVHDC,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARTZA,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAPNWT,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PAVVZK,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATVCE,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVNVK,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVCAW,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAPFBK,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAUVBE,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVDLC,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAVTRE,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASVAJ,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPULW,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAWBYR,Non-Down Syndrome Induction Therapy,0,1,0,0,1
+MP2PRT-PATWYH,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARUSF,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAVUTJ,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PATBIK,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVCIE,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUDLB,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARYFJ,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PARLEF,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAUJUL,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATTEN,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PANTAG,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAVFJC,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPLTR,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PAUCBN,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARYIZ,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PANVIB,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVMAK,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVXWB,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVAFZ,Experimental Arm 1 � VHR Patients,3,1,0,0,0
+MP2PRT-PARMXF,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PASYSF,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAUNBP,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASVHY,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVYZV,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAWAVU,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARXNY,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUXGE,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVATV,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PAVAYT,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PAULMY,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPRNM,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAWCSY,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATWTC,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVRPK,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVJMZ,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARTBD,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PATDDK,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPUBE,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAVZKX,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVPJN,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PARWYI,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAUPUG,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUSSA,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVDNN,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVGAZ,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPHTL,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVMHE,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PANWMS,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PASUZE,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVLMM,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVTPM,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVHYJ,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAPEHK,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAVTDJ,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAPDIV,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAUSNU,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASGWC,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPZPZ,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUWGU,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATKVV,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAUIPV,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATIAN,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PANUYZ,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PANUVV,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAUKWE,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUPMC,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUDWB,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASZUB,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAUVEW,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUKDI,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASZYC,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PASSBP,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAWAUK,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAPKRX,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PARXKE,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PASMRY,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PARISW,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAVIPL,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARDFA,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PASXEP,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAVHIL,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUFJF,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASZMD,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAPUJY,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAPPVN,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PARAJY,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PARYII,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVEUU,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUBSM,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASIMZ,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PAWADX,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PANUMR,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PAPFFT,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PASPJJ,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAPXKS,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUZNB,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PANZGJ,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PARPKB,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PARVJJ,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PATBCP,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PASGZN,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PATIEF,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVYLZ,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATELH,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PASLVA,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAWCSX,Experimental Arm 1 � VHR Patients,3,1,0,0,0
+MP2PRT-PAPYPB,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAUVZN,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASKHD,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAVNKE,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUVED,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATKYM,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVXUA,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PATAHM,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUNBV,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARPWB,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PASSAN,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PATYBE,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATJIZ,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAPDDM,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PASKVY,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PATYDT,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASRXC,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAUJZD,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUVZX,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASSDM,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PANSTA,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PAUNHW,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUPJV,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVSXY,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARCMR,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PATBIW,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVXLT,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARIPB,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PASXZA,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAPIMU,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PATWDH,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUYZG,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVAWY,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARWHA,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAUHKL,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATVRV,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PASLSG,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVMPY,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATBSE,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PARPGE,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PATHSK,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PARCPB,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PATTSM,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PATVVA,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARTAH,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PARFTF,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PASJVA,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PARCLW,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PATGSJ,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PASFWB,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PARUIM,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PASHBK,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PARPJK,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PATZIX,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVYHF,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARSPU,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAPVNW,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PAPMVR,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PAPIBM,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PARGCH,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PAVWGC,Arm B � HR Patients,3,1,0,0,0
+MP2PRT-PASTYP,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PARWXW,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAPTME,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PATHCR,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PARCBE,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAUCUZ,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASYIR,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAPSHF,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PATJXU,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PARNTW,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PASPKZ,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PARSUA,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PATLAE,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAUSVG,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PARRLP,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PARPAY,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PATCEA,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PASNHU,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PATLKV,SR-Avg Group - SS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAVAUP,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARMGR,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PATZCB,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATHBD,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUNBE,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVSKW,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATARG,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAUYXJ,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PANRWZ,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PAPBZN,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PAUCXZ,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATFNA,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PATVUA,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVEKE,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PANUIX,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PARBMX,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PAUWMN,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATJVT,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVFVG,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PAUEVU,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASWWN,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PASRHS,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PATANL,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAPEJN,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAUWBZ,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAUFZF,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVHZP,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PANVLH,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAUBXC,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVTJD,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUJYI,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUWKL,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUTWI,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARVNX,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PATELX,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAVJWF,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PATIMZ,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PASRRX,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAPCAC,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PANZUI,"SR-Average Risk - IA arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",2,2,0,0,0
+MP2PRT-PATVVI,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVNMC,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUBXZ,B-ALL Average Risk - Arm C Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATVSK,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATLPU,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PAUVJH,B-ALL Average Risk - Arm D Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARNFI,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PAUJMU,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PATGGX,SR-High Group - High arm: IC; AIM 1; ADI 1; AIM 2; ADI 2; Maintenance,3,2,0,0,0
+MP2PRT-PARPCA,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PATGCF,SR-Avg Group - IS-IV arm: IC; SIM+IV-MTX; SDI; Maintenance,2,1,0,0,0
+MP2PRT-PAUCMU,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUXGW,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PANXLC,"SR-Average Group - SA arm:  Standard Consolidation, Augmented Interim Maintenance, Augmented Delayed",2,2,0,0,0
+MP2PRT-PASFIF,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PASTRS,SR-Low Group - LRS-IV arm: SC; SIM+IV-MTX; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAWCVM,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVMKY,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAVPDH,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAUUWK,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PAPHXK,"SR-High Group - High arm:  Intensified Consolidation, Augmented Interim Maintenance, Augmented Delay",3,2,0,0,0
+MP2PRT-PAUKTI,B-ALL Low Risk (Arm LR-M) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PAPPEJ,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PARDKM,"SR-Average Group - SS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed I",2,1,0,0,0
+MP2PRT-PAVEJH,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
+MP2PRT-PAMYYP,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PAVSAG,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PATPDL,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PAPXIW,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAUIPC,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVTCF,B-ALL Low Risk (Arm LR-C) Post-Induction Therapy,1,1,0,0,0
+MP2PRT-PARJZZ,"SR-Average Group - IS arm:  Intensified Consolidation, Standard Interim Maintenance, Standard Delaye",2,2,0,0,0
+MP2PRT-PASDIM,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PAUMWV,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PASUNE,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PAPRWD,"SR-Low Group - LRAsp arm:  Standard Consolidation + 2 doses of PEG, Standard Interim Maintenance + 2",1,1,0,0,0
+MP2PRT-PAPFPU,"(PH)  4 weeks Prednisone during Induction, High Dose Methotrexate during Interim Maintenance I",3,1,2,1,0
+MP2PRT-PARMIB,"SR-Low Group - LRS arm:  Standard Consolidation, Standard Interim Maintenance, Standard Delayed Inte",1,1,0,0,0
+MP2PRT-PAVFRE,Arm A � HR Patients,3,1,0,0,0
+MP2PRT-PATWZV,B-ALL Non-Down Syndrome  Induction Therapy,0,1,0,0,1
+MP2PRT-PAVGTD,B-ALL Average Risk Post-Induction/Pre-Maintenance Therapy,2,1,0,0,0
+MP2PRT-PASRGR,Standard Induction - all patients in all groups,0,1,0,0,0
+MP2PRT-PATVXW,"(PC)  4 weeks Prednisone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,1,0
+MP2PRT-PASVLF,SR-Low Group - LRAsp-IV arm: SC+PEG; SIM+IV-MTX+PEG; SDI; Maintenance,1,1,0,0,0
+MP2PRT-PAUPCE,B-ALL Average Risk - Arm B Maintenance Therapy,2,1,0,0,0
+MP2PRT-PARVCG,"(DC)  2 weeks Dexamethasone during Induction, Capizzi Methotrexate during Interim Maintenance I",0,1,1,2,0
+MP2PRT-PAVUHD,B-ALL Average Risk - Arm A Maintenance Therapy,2,1,0,0,0
